@@ -1,16 +1,25 @@
 {
   "name": "produtos",
   "version": "1.0.0",
+<<<<<<< HEAD
+=======
+  "description": "",
+>>>>>>> 9c583148d1069f3dabacfad52731b41296025944
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+<<<<<<< HEAD
   "author": "jefferson",
+=======
+  "author": "",
+>>>>>>> 9c583148d1069f3dabacfad52731b41296025944
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
+<<<<<<< HEAD
     "git": "^0.1.5",
     "http-status": "^1.5.0",
     "pg": "^8.6.0",
@@ -28,4 +37,10 @@
   },
   "homepage": "https://github.com/jeffsilva182/produtos#readme",
   "description": ""
+=======
+    "http-status": "^1.5.0",
+    "pg": "^8.6.0",
+    "sequelize": "^6.6.2"
+  }
+>>>>>>> 9c583148d1069f3dabacfad52731b41296025944
 }
