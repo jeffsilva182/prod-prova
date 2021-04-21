@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 const http = require('http');
 const express = require('express');
 const status = require ('http-status');
@@ -27,7 +26,6 @@ sequelize.sync({ force: false }).then(() => {
     const server = http.createServer(app);
     server.listen(process.env.PORT || port);
 });
-=======
 const http = require('http');
 const express = require('express');
 const status = require ('http-status');
@@ -56,4 +54,3 @@ sequelize.sync({ force: false }).then(() => {
     const server = http.createServer(app);
     server.listen(process.env.PORT || port);
 });
->>>>>>> 9c583148d1069f3dabacfad52731b41296025944
